@@ -1,0 +1,18 @@
+$darkColor: #333;
+$lightColor: #f4f4f4;
+$orangeColor: #ff6f47;
+$orangeDarkColor: #ff4f47;
+$greenColor: rgb(73, 204, 73);
+$greenDarkColor: rgb(21, 128, 21);
+$purpleColor:rgb(114, 71, 233);
+$purpleDarkColor:rgb(37, 5, 124);
+
+%buttonShared {
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: $lightColor;
+  border-radius: 5px;
+  background: $darkColor;
+}
